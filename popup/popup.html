@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>card refect tool</title>
+    <link rel="stylesheet" href="./popupComponent.css" />
+    <link rel="stylesheet" href="./popup.css" />
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../utils.js"></script>
+  </head>
+
+  <body>
+    <h3 class="tool-container">
+      welcome to demo
+      <a
+        href="https://yuque.antfin-inc.com/docs/share/2f827eae-6e64-4f0b-87c7-f5f4981243f9"
+        target="_blank"
+        class="help"
+      >
+        <img src="../icons/help.png" />
+      </a>
+      <span class="link-to-options" id="link-to-options" title="设置">
+        <img src="https://gw.alicdn.com/imgextra/i4/O1CN01blGqrT1dPvaKIysTy_!!6000000003729-0-tps-1004-1130.jpg" width="28" height="28" />
+      </span>
+    </h3>
+    <div class="tool-container use-debug hide" key="useDebugTool">
+      <div class="title">
+        use debug(ctrl+d)
+        <input
+          class="mui-switch mui-switch-animbg"
+          type="checkbox"
+          id="switchUseDebug"
+        />
+      </div>
+    </div>
+    <div class="tool-container hide" key="cacheTool">
+      <div class="title">
+        clear cache
+        <button id="clearLocalStorage">LS</button>
+        <button id="clearDNSCache">DNS</button>
+      </div>
+    </div>
+    <div class="tool-container iframe-tool hide" key="iframeTool">
+      <div class="title">
+        iframe
+        <button id="reloadIframe">reload</button>
+      </div>
+    </div>
+
+    <h3>please click setting button to enable or disable components~</h3>
+    <div class="footer">
+      <div class="author">
+        author: ludy.hxy
+        <a
+          href="https://github.com/huxiaoyun/chrome-extension-demo"
+          target="_blank"
+          class="repo"
+        >
+          <img src="../icons/gitlab.ico" />
+        </a>
+      </div>
+      <div>
+        <span id="version"></span>
+        <span>copyright 2021</span>
+      </div>
+    </div>
+  </body>
+
+  <script src="./popup.js"></script>
+</html>

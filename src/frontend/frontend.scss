@@ -1,0 +1,14 @@
+.frontend-container {
+  position: fixed;
+  left: 5px;
+  bottom: 5px;
+  padding: 15px 5px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  z-index: 99999;
+  color: #fff;
+  font-size: 10px;
+  font-family: 'Helvetica Neue';
+  max-width: 350px;
+  user-select: none;
+}

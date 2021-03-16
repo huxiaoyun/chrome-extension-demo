@@ -1,0 +1,10 @@
+.custom-frame-wrapper {
+  border: 1px solid #0088fe !important;
+}
+.custom-frame-info a {
+  background: #0088fe;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #fff;
+}

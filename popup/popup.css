@@ -1,0 +1,84 @@
+body {
+  width: 300px;
+  margin: 10px 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.tool-container {
+  border-top: 1px solid #eee;
+}
+
+.tool-container:first-child {
+  border-top: none;
+}
+
+.tool-container .help img {
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+}
+
+.tool-container .title {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.tool-container .title .mui-switch {
+  vertical-align: text-bottom;
+  margin: 0;
+}
+
+.tool-container .tool-container-row {
+  margin: 10px 0;
+}
+
+.tool-container .tool-container-row textarea {
+  vertical-align: top;
+  width: 90%;
+  min-height: 50px;
+}
+
+.footer {
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  line-height: 20px;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  color: #2e2f2f;
+}
+
+.footer .author .repo img {
+  width: 16px;
+  cursor: pointer;
+}
+
+.tool-container-row {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.tool-container-row .checkbox-input {
+  width: 20px;
+  height: 20px;
+  vertical-align: top;
+}
+
+.tool-container-row .selfDefined-input {
+  width: 70px;
+}
+
+.link-to-options {
+  float: right;
+  cursor: pointer;
+  user-select: none;
+}
